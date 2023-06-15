@@ -48,7 +48,6 @@ p{
 }
 /* Main Section */
 
-
 .background-image{
     background: url('/src/components/img/backgroundImage.jpg') center/cover no-repeat;
     filter: blur(8px);
