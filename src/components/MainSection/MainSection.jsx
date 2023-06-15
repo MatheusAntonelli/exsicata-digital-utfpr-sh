@@ -8,6 +8,7 @@ function MainSection() {
         <div className="main-text">
             <h1>Exsicata digital UTFPR-SH</h1>
             <h1>Facilitando e simplificando o acesso a informação</h1>
+            <h3>Orientadora: Professora: Ana Regina</h3>
             <AnchorLink href='#featured'  offset={() => 30}><button className='button-9'>Iniciar</button></AnchorLink>
         </div>
     </div>

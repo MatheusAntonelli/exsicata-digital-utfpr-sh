@@ -48,10 +48,12 @@ export default class PlantCard extends Component {
           <Header className='card-header'>Alecrim</Header>
           <Divider horizontal>Nome Cientifico</Divider>
           <Header className='italic'>Rosmarinus officinalis</Header>
-          <p>Serve para o consumo em forma em forma de chá é tempero. Utilizado também como repelente natural contra insetos é também e utilizado na fabricação de produtos químicos <br />
-            Local de coleta: UTFPR- SH <br />
-            Nome do coletor: Matheus Antonelli <br />
-            Data de coleta: 01 /06 / 2023</p>
+          <p> <strong>Família: </strong>Lamiaceae <br />
+            <strong>Finalidade:</strong> melhora da digestão, alívio da dor de cabeça e combate ao cansaço <br />
+            <strong>Usos: </strong>Serve para o consumo em forma em forma de chá é tempero. Utilizado também como repelente natural contra insetos é também e utilizado na fabricação de produtos químicos <br />
+            <strong>Local de coleta:</strong> UTFPR- SH <br />
+            <strong>Nome do coletor: </strong>Matheus Antonelli <br />
+            <strong>Data de coleta:</strong> 01 /06 / 2023</p>
         </Segment>
       </TransitionablePortal>
         </Card>
@@ -62,10 +64,10 @@ export default class PlantCard extends Component {
           <Image src='https://images.unsplash.com/photo-1686837699603-1c88da19bb55?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
             <Card.Header>Boldo</Card.Header>
-            <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
+            <Divider horizontal className='italic'>Peumus boldus</Divider>
             <Card.Meta>Coletado dia: 01/06/2023</Card.Meta>
             <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
+              Recomendado para digestao e estimular as funções do fígado
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
@@ -84,11 +86,18 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
+          <Header>Boldo</Header>
           <Divider horizontal>Nome Cientifico</Divider>
-          <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
+          <Header className='italic'>Peumus boldus</Header>
+          <p> <strong>Nome vulgar: </strong> Boldo <br />
+            <strong>Nome científico:</strong> <i>Peumus boldus</i> <br />
+            <strong>Família: </strong> Monimiaceae <br />
+            <strong>Finalidade:</strong> estimular as funções do fígado, melhorar a digestão e aliviar sintomas de ressaca, também ajuda a digestão de gases em excesso <br />
+            <strong>Usos:</strong> Consumo em forma de chá <br />
+            <strong>Local de coleta:</strong> UTFPR-SH <br />
+            <strong>Nome do coletor: </strong>Matheus Antonelli
+            <strong>Data de coleta:</strong> 01/06/2023</p>
+          
         </Segment>
       </TransitionablePortal>
         </Card>
@@ -99,10 +108,10 @@ export default class PlantCard extends Component {
           <Image src='https://images.unsplash.com/photo-1686839469004-81457c0a8b95?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} className='img-card'/>
           <Card.Content>
             <Card.Header>Erva Cidreira</Card.Header>
-            <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
+            <Divider horizontal className='italic'>Melissa officinalis</Divider>
             <Card.Meta>Coletado dia: 01/06/2023</Card.Meta>
             <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
+               É utilizada para melhorar a qualidade do sono e ansiedade.
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
@@ -121,11 +130,15 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
+          <Header>Erva Cidreira</Header>
           <Divider horizontal>Nome Cientifico</Divider>
-          <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
+          <Header className='italic'>Melissa officinalis:</Header>
+          <p> <strong>Família:</strong>Lamiaceae <br />
+           <strong>Finalidade: </strong> Melhorar a qualidade do sono, ajudar quem sofre de ansiedade e ainda controlar problemas digestivos, diminuindo cólicas e gases <br />
+           <strong>Usos:</strong> Pode ser utilizada na forma de chá é em comidas para se fazer ponches é temperar saladas. <br />
+           <strong>Local de coleta:</strong> UTFPR-SH <br />
+           <strong>Nome do coletor:</strong> Matheus Antonelli <br />
+           <strong>Data de coleta:</strong> 01/06/ 2023</p>
         </Segment>
       </TransitionablePortal>
         </Card>
@@ -135,10 +148,10 @@ export default class PlantCard extends Component {
           <Image src='https://images.unsplash.com/photo-1686837999742-7661eeec80ad?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
             <Card.Header>Losna</Card.Header>
-            <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
+            <Divider horizontal className='italic'>Artemisia absinthium</Divider>
             <Card.Meta>Coletado dia: 01/06/2023</Card.Meta>
             <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
+              Pode ser usada via oral, infusão e compressas, bastante utilizadas para distúrbios de digestão. 
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
@@ -157,91 +170,108 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
+          <Header>Losna</Header>
           <Divider horizontal>Nome Cientifico</Divider>
-          <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
+          <Header className='italic'>Artemisia absinthium</Header>
+          <p> <strong>Família: </strong> Asteraceae <br />
+           <strong>Finalidade: </strong> uso oral contra gases, vermes, distúrbios de digestão, do fígado e da vesícula biliar.<br />
+           <strong>Usos:</strong> Chá por infusão (uso oral) é por decocção ( compressa) <br />
+           <strong>Local de coleta:</strong> UTFPR-SH <br />
+           <strong>Nome do coletor:</strong> Matheus Antonelli <br />
+           <strong>Data de coleta:</strong> 01/06/2023</p>
+        </Segment>
+      </TransitionablePortal>
+        </Card>
+            
+        <Card>
+          <Image src='https://images.unsplash.com/photo-1686837755775-f4c196ff8f9b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
+          <Card.Content>
+            <Card.Header>Manjericão</Card.Header>
+            <Divider horizontal className='italic'>Ocimum basilicum</Divider>
+            <Card.Meta>Data da Coleta: 01/06/2023</Card.Meta>
+            <Card.Description>
+              Estimulante digestivo, antiespamódico
+            </Card.Description>
+          </Card.Content>
+          <Card.Content extra>
+          </Card.Content>
+          <TransitionablePortal
+            closeOnTriggerClick
+            onOpen={this.handleOpen}
+            onClose={this.handleClose}
+            openOnTriggerClick
+            trigger={
+              <Button
+                content={open ? 'Fechar Informações' : 'Mais informações'}
+                negative={open}
+                positive={!open}
+              />
+            }
+          >
+        <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
+          <Header>Manjericão</Header>
+          <Divider horizontal>Nome Cientifico</Divider>
+          <Header className='italic'>Ocimum basilicum</Header>
+          <p> <strong>Família:</strong> Laminacea <br />
+             <strong>Finalidade:</strong> estimulante digestivo é antiespamódico <br />
+             <strong>Usos:</strong> Utilização como chá <br />
+             <strong>Local de coleta:</strong> UTFPR-SH <br />
+             <strong>Nome do coletor:</strong> Matheus Antonelli <br />
+             <strong>Data de coleta:</strong> 01/06/2023</p>
+
+        </Segment>
+      </TransitionablePortal>
+        </Card>
+            {/*  -  - ---------- */}
+            {/*  -  - ---------- */}
+        <Card>
+          <Image src='https://images.unsplash.com/photo-1686837852820-128f021a90a7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
+          <Card.Content>
+            <Card.Header>Mil Folhas</Card.Header>
+            <Divider horizontal className='italic'>Achillea millefolium L.</Divider>
+            <Card.Meta>Data da Coleta: 01/06/2023</Card.Meta>
+            <Card.Description>
+              Planta digestiva, diurética, anti-inflamatoria ...
+            </Card.Description>
+          </Card.Content>
+          <Card.Content extra>
+          </Card.Content>
+          <TransitionablePortal
+            closeOnTriggerClick
+            onOpen={this.handleOpen}
+            onClose={this.handleClose}
+            openOnTriggerClick
+            trigger={
+              <Button
+                content={open ? 'Fechar Informações' : 'Mais informações'}
+                negative={open}
+                positive={!open}
+              />
+            }
+          >
+        <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
+          <Header>Mil Folhas</Header>
+          <Divider horizontal>Nome Cientifico</Divider>
+          <Header className='italic'>Achillea millefolium L.</Header>
+          <p>Família:Asteraceae 
+            <strong>Finalidade:</strong> digestiva, diurética, anti-inflamatória e antiespasmódica ( uso interno). tratamento de hemorroidas, contusões, doenças de pele, feridas e dores musculares (uso externos)
+            <strong>Usos: </strong> Infusão tanto para uso oral como para banhos de assento e lavagens locais.
+            <strong>Local de coleta:</strong>  UTFPR- SH
+            <strong>Nome do coletor:</strong> Matheus Antonelli 
+            <strong>Data de coleta:</strong> 01/06/2023</p>
+
         </Segment>
       </TransitionablePortal>
         </Card>
 
+
+
         <Card>
-          <Image src='' wrapped ui={false} />
+          <Image src='https://images.unsplash.com/photo-1686842077709-cf2050479b64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Nome da Planta</Card.Header>
+            <Card.Header>Funcho</Card.Header>
             <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
-            <Card.Meta>Data da Coleta</Card.Meta>
-            <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
-            </Card.Description>
-          </Card.Content>
-          <Card.Content extra>
-          </Card.Content>
-          <TransitionablePortal
-            closeOnTriggerClick
-            onOpen={this.handleOpen}
-            onClose={this.handleClose}
-            openOnTriggerClick
-            trigger={
-              <Button
-                content={open ? 'Fechar Informações' : 'Mais informações'}
-                negative={open}
-                positive={!open}
-              />
-            }
-          >
-        <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
-          <Divider horizontal>Nome Cientifico</Divider>
-          <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
-        </Segment>
-      </TransitionablePortal>
-        </Card>
-            {/* Losna -  - ---------- */}
-            {/*  -  - ---------- */}
-        <Card>
-          <Image src='https://images.unsplash.com/photo-1623613466226-30970499b058?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=890&q=80' wrapped ui={false} />
-          <Card.Content>
-            <Card.Header>Nome da Planta</Card.Header>
-            <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
-            <Card.Meta>Data da Coleta</Card.Meta>
-            <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
-            </Card.Description>
-          </Card.Content>
-          <Card.Content extra>
-          </Card.Content>
-          <TransitionablePortal
-            closeOnTriggerClick
-            onOpen={this.handleOpen}
-            onClose={this.handleClose}
-            openOnTriggerClick
-            trigger={
-              <Button
-                content={open ? 'Fechar Informações' : 'Mais informações'}
-                negative={open}
-                positive={!open}
-              />
-            }
-          >
-        <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
-          <Divider horizontal>Nome Cientifico</Divider>
-          <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
-        </Segment>
-      </TransitionablePortal>
-        </Card>
-        <Card>
-          <Image src='https://images.unsplash.com/photo-1623613466226-30970499b058?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=890&q=80' wrapped ui={false} />
-          <Card.Content>
-            <Card.Header>Nome da Planta</Card.Header>
-            <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
-            <Card.Meta>Data da Coleta</Card.Meta>
+            <Card.Meta>Data da Coleta: 28/05/2023 </Card.Meta>
             <Card.Description>
               Tipo de Planta e usos - POUCO TEXTO
             </Card.Description>
@@ -274,9 +304,9 @@ export default class PlantCard extends Component {
 
         {/*  -  - ---------- */}
         <Card>
-          <Image src='https://images.unsplash.com/photo-1623613466226-30970499b058?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=890&q=80' wrapped ui={false} />
+          <Image src='https://images.unsplash.com/photo-1686842107732-b925e9218673?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80' wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Nome da Planta</Card.Header>
+            <Card.Header>Perpetua</Card.Header>
             <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
             <Card.Meta>Data da Coleta</Card.Meta>
             <Card.Description>
@@ -311,9 +341,9 @@ export default class PlantCard extends Component {
 
 
         <Card>
-          <Image src='https://images.unsplash.com/photo-1623613466226-30970499b058?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=890&q=80' wrapped ui={false} />
+          <Image src='https://images.unsplash.com/photo-1686842143609-a8c04d8f7c33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Nome da Planta</Card.Header>
+            <Card.Header>Espinheira Santa</Card.Header>
             <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
             <Card.Meta>Data da Coleta</Card.Meta>
             <Card.Description>
@@ -348,9 +378,9 @@ export default class PlantCard extends Component {
             {/*  -  - ---------- */}
 
         <Card>
-          <Image src='https://images.unsplash.com/photo-1623613466226-30970499b058?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=890&q=80' wrapped ui={false} />
+          <Image src='https://images.unsplash.com/photo-1686842215450-5da70981866e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Nome da Planta</Card.Header>
+            <Card.Header>Louro</Card.Header>
             <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
             <Card.Meta>Data da Coleta</Card.Meta>
             <Card.Description>
@@ -373,7 +403,7 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
+          <Header>Louro</Header>
           <Divider horizontal>Nome Cientifico</Divider>
           <Header className='italic'>Nome cientifico:</Header>
           <p>Plantas medicinais podem ajudar a sociedade.</p>
@@ -385,9 +415,9 @@ export default class PlantCard extends Component {
             {/*  -  - ---------- */}
             {/* -  - ---------- */}
         <Card>
-          <Image src='https://images.unsplash.com/photo-1623613466226-30970499b058?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=890&q=80' wrapped ui={false} />
+          <Image src='https://images.unsplash.com/photo-1686841973947-00ecc3494587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Nome da Planta</Card.Header>
+            <Card.Header>Salvia</Card.Header>
             <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
             <Card.Meta>Data da Coleta</Card.Meta>
             <Card.Description>
@@ -421,9 +451,9 @@ export default class PlantCard extends Component {
             {/*  -  - ---------- */}
 
         <Card>
-          <Image src='https://images.unsplash.com/photo-1623613466226-30970499b058?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=890&q=80' wrapped ui={false} />
+          <Image src='https://images.unsplash.com/photo-1686840966261-39706ac33c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Nome da Planta</Card.Header>
+            <Card.Header>Carquejo</Card.Header>
             <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
             <Card.Meta>Data da Coleta</Card.Meta>
             <Card.Description>
