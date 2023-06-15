@@ -598,10 +598,10 @@ export default class PlantCard extends Component {
             {/*  -  - ---------- */}
 
         <Card>
-          <Image src='https://images.unsplash.com/photo-1686851181503-29aec62714d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
+          <Image src='https://images.unsplash.com/photo-1686837789467-7e4d9047e3bc?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Figatil</Card.Header>
-            <Divider horizontal className='italic'>Vernonia condensata Baker</Divider>
+            <Card.Header>Penicilina </Card.Header>
+            <Divider horizontal className='italic'>Althernanthera brasiliana</Divider>
             <Card.Meta>Data da Coleta: 13/06/2023</Card.Meta>
             <Card.Description>
               Planta Medicinal utilizada contra disturbios do fígado.
@@ -623,11 +623,11 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header className='card-header'>Nome da planta</Header>
+          <Header className='card-header'>Penicilina</Header>
           <Divider horizontal>Nome Cientifico</Divider>
-          <Header className='italic'>Nome cientifico:</Header>
-          <p><strong>Família:</strong> Asteraceae <br />
-            <strong>Finalidade:</strong> Contra distúrbios do fígado e do estômago, problemas intestinais e no combate a insuficiência dos rins e a inflamações. <br />
+          <Header className='italic'>Althernanthera brasiliana</Header>
+          <p><strong>Família:</strong> 	Amaranthaceae <br />
+            <strong>Finalidade:</strong> Utilizada como analgesico, anti-inflamatorio, antiviral, diurética e digestiva. <br />
             <strong>Usos: </strong>medicinal. <br />
             <strong>Local de coleta:</strong>  UTFPR-SH <br />
             <strong>Nome do coletor:</strong> Johny Lamera e Matheus Antonelli<br />
