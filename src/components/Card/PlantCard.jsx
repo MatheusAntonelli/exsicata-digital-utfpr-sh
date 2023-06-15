@@ -86,7 +86,7 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Boldo</Header>
+          <Header className='card-header'>Boldo</Header>
           <Divider horizontal>Nome Cientifico</Divider>
           <Header className='italic'>Peumus boldus</Header>
           <p> <strong>Nome vulgar: </strong> Boldo <br />
@@ -130,7 +130,7 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Erva Cidreira</Header>
+          <Header className='card-header'>Erva Cidreira</Header>
           <Divider horizontal>Nome Cientifico</Divider>
           <Header className='italic'>Melissa officinalis:</Header>
           <p> <strong>Família:</strong>Lamiaceae <br />
@@ -170,7 +170,7 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Losna</Header>
+          <Header className='card-header'>Losna</Header>
           <Divider horizontal>Nome Cientifico</Divider>
           <Header className='italic'>Artemisia absinthium</Header>
           <p> <strong>Família: </strong> Asteraceae <br />
@@ -209,10 +209,10 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Manjericão</Header>
+          <Header className='card-header'>Manjericão</Header>
           <Divider horizontal>Nome Cientifico</Divider>
           <Header className='italic'>Ocimum basilicum</Header>
-          <p> <strong>Família:</strong> Laminacea <br />
+          <p><strong>Família:</strong> Laminacea <br />
              <strong>Finalidade:</strong> estimulante digestivo é antiespamódico <br />
              <strong>Usos:</strong> Utilização como chá <br />
              <strong>Local de coleta:</strong> UTFPR-SH <br />
@@ -250,14 +250,14 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Mil Folhas</Header>
+          <Header className='card-header'>Mil Folhas</Header>
           <Divider horizontal>Nome Cientifico</Divider>
           <Header className='italic'>Achillea millefolium L.</Header>
-          <p>Família:Asteraceae 
-            <strong>Finalidade:</strong> digestiva, diurética, anti-inflamatória e antiespasmódica ( uso interno). tratamento de hemorroidas, contusões, doenças de pele, feridas e dores musculares (uso externos)
-            <strong>Usos: </strong> Infusão tanto para uso oral como para banhos de assento e lavagens locais.
-            <strong>Local de coleta:</strong>  UTFPR- SH
-            <strong>Nome do coletor:</strong> Matheus Antonelli 
+          <p><strong>Família:</strong> Asteraceae 
+            <strong>Finalidade:</strong> digestiva, diurética, anti-inflamatória e antiespasmódica ( uso interno). tratamento de hemorroidas, contusões, doenças de pele, feridas e dores musculares (uso externos) <br />
+            <strong>Usos: </strong> Infusão tanto para uso oral como para banhos de assento e lavagens locais. <br />
+            <strong>Local de coleta:</strong>  UTFPR- SH <br />
+            <strong>Nome do coletor:</strong> Matheus Antonelli <br />
             <strong>Data de coleta:</strong> 01/06/2023</p>
 
         </Segment>
@@ -270,10 +270,10 @@ export default class PlantCard extends Component {
           <Image src='https://images.unsplash.com/photo-1686842077709-cf2050479b64?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
             <Card.Header>Funcho</Card.Header>
-            <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
+            <Divider horizontal className='italic'>Foeniculum vulgare</Divider>
             <Card.Meta>Data da Coleta: 28/05/2023 </Card.Meta>
             <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
+              Conhecida como erva-doce, amplamente utilizada para problemas gastrointestinais.
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
@@ -292,11 +292,15 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
+          <Header className='card-header'>Funcho</Header>
           <Divider horizontal>Nome Cientifico</Divider>
-          <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
+          <Header className='italic'>Foeniculum vulgare</Header>
+          <p><strong>Família:</strong> Apiaceae <br />
+            <strong>Finalidade:</strong> Medicinal e Aromatica   <br />
+            <strong>Usos: </strong> utilizado no combate a problemas gastrointestinais, ajuda na digestão, combate flatulência e diarreia, pode ajudar no combate a ansiedade, <br /> estresse e insônia, ajuda liberar excesso de liquido no corpo, pode reduzir dores menstruais, previne o mau hálito e azia <br />
+            <strong>Local de coleta:</strong>  Missal - PR <br />
+            <strong>Nome do coletor:</strong> Johny Lamera <br />
+            <strong>Data de coleta:</strong> 28/05/2023</p>
         </Segment>
       </TransitionablePortal>
         </Card>
@@ -304,13 +308,13 @@ export default class PlantCard extends Component {
 
         {/*  -  - ---------- */}
         <Card>
-          <Image src='https://images.unsplash.com/photo-1686842107732-b925e9218673?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=774&q=80' wrapped ui={false} />
+          <Image src='https://images.unsplash.com/photo-1686844683857-ba8a7ff83f03?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
             <Card.Header>Perpetua</Card.Header>
-            <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
-            <Card.Meta>Data da Coleta</Card.Meta>
+            <Divider horizontal className='italic'>	Gomphrena Globosa</Divider>
+            <Card.Meta>Data da Coleta: 28/05/2023</Card.Meta>
             <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
+              Planta medicinal utilizada com metodo de infusão contra tosses e cólicas.
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
@@ -329,11 +333,15 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
+          <Header className='card-header'>Perpetua</Header>
           <Divider horizontal>Nome Cientifico</Divider>
-          <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
+          <Header className='italic'>Gomphrena Globosa</Header>
+          <p><strong>Família:</strong> Apiaceae <br />
+            <strong>Finalidade:</strong> servem-se das flores, que são fervidas, para fazer chá, contra as cólicas, oligúrias e tosses. <br />
+            <strong>Usos: </strong> Medicinal e decorativo
+            <strong>Local de coleta:</strong>  Missal - PR <br />
+            <strong>Nome do coletor:</strong> Johny Lamera <br />
+            <strong>Data de coleta:</strong> 28/05/2023</p>
         </Segment>
       </TransitionablePortal>
         </Card>
@@ -343,11 +351,11 @@ export default class PlantCard extends Component {
         <Card>
           <Image src='https://images.unsplash.com/photo-1686842143609-a8c04d8f7c33?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Espinheira Santa</Card.Header>
-            <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
-            <Card.Meta>Data da Coleta</Card.Meta>
+            <Card.Header className='card-header'>Espinheira Santa</Card.Header>
+            <Divider horizontal className='italic'>Maytenus ilicifolia</Divider>
+            <Card.Meta>Data da Coleta: 28/05/2023</Card.Meta>
             <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
+              Uso medicinal - Recomendado para combate de acidez estomacal.
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
@@ -366,11 +374,15 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
+          <Header className='card-header'>Espinheira Santa</Header>
           <Divider horizontal>Nome Cientifico</Divider>
-          <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
+          <Header className='italic'>Maytenus ilicifolia</Header>
+          <p><strong>Família:</strong> Celastraceae <br />
+            <strong>Finalidade:</strong> É prescrita pela medicina popular no combate aos problemas de acidez estomacal, pois acalma as dores das úlceras e evita a fermentação e a formação de gases. <br />É utilizada também em banhos como cicatrizante das inflamações da pele
+            <strong>Usos: </strong> Medicinal
+            <strong>Local de coleta:</strong>  Missal - PR <br />
+            <strong>Nome do coletor:</strong> Johny Lamera <br />
+            <strong>Data de coleta:</strong> 28/05/2023</p>
         </Segment>
       </TransitionablePortal>
         </Card>
@@ -381,10 +393,10 @@ export default class PlantCard extends Component {
           <Image src='https://images.unsplash.com/photo-1686842215450-5da70981866e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
             <Card.Header>Louro</Card.Header>
-            <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
-            <Card.Meta>Data da Coleta</Card.Meta>
+            <Divider horizontal className='italic'>Laurus nobilis</Divider>
+            <Card.Meta>Data da Coleta: 28/05/2023</Card.Meta>
             <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
+             Planta com foco condimentar utilizada na gastronomia.
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
@@ -403,25 +415,30 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Louro</Header>
+          <Header className='card-header'>Louro</Header>
           <Divider horizontal>Nome Cientifico</Divider>
-          <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
+          <Header className='italic'>Laurus nobilis</Header>
+          <p><strong>Família:</strong> Lauraceae <br />
+            <strong>Finalidade:</strong> Utilizado como planta condimentar na cozinha de varios paises como Brasil e Índia.
+            <strong>Usos: </strong> Condimentar e culinaria.
+            <strong>Local de coleta:</strong>  Missal - PR <br />
+            <strong>Nome do coletor:</strong> Johny Lamera <br />
+            <strong>Data de coleta:</strong> 28/05/2023</p>
         </Segment>
       </TransitionablePortal>
         </Card>
 
             {/*  -  - ---------- */}
+
             {/* -  - ---------- */}
         <Card>
           <Image src='https://images.unsplash.com/photo-1686841973947-00ecc3494587?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
             <Card.Header>Salvia</Card.Header>
             <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
-            <Card.Meta>Data da Coleta</Card.Meta>
+            <Card.Meta>Data da Coleta: 25/05/2023</Card.Meta>
             <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
+              Salvia é uma erva aromatica, medicinal ou ornamental.
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
@@ -440,24 +457,28 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
+          <Header className='card-header'>Salvia</Header>
           <Divider horizontal>Nome Cientifico</Divider>
-          <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
+          <Header className='italic'>Salvia rosmarinus</Header>
+          <p><strong>Família:</strong> Lamiaceae <br />
+            <strong>Finalidade:</strong> ajudar no tratamento do sistema nervoso central atuando como calmante, ajudando a manter o equilíbrio.
+            <strong>Usos: </strong> Aromatica e medicinal.
+            <strong>Local de coleta:</strong>  Missal - PR <br />
+            <strong>Nome do coletor:</strong> Johny Lamera <br />
+            <strong>Data de coleta:</strong> 28/05/2023</p>
         </Segment>
       </TransitionablePortal>
         </Card>
             {/*  -  - ---------- */}
 
         <Card>
-          <Image src='https://images.unsplash.com/photo-1686840966261-39706ac33c56?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
+          <Image src='https://images.unsplash.com/photo-1686851211667-5f9b8e26d7f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Carquejo</Card.Header>
-            <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
-            <Card.Meta>Data da Coleta</Card.Meta>
+            <Card.Header>Carqueja</Card.Header>
+            <Divider horizontal className='italic'>Baccharis trimera</Divider>
+            <Card.Meta>Data da Coleta: 10/06/2023</Card.Meta>
             <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
+              Planta medicinal
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
@@ -476,22 +497,30 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
+          <Header className='card-header'>Carqueja</Header>
           <Divider horizontal>Nome Cientifico</Divider>
-          <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
+          <Header className='italic'>Baccharis trimera</Header>
+          <p><strong>Família:</strong> Asteraceae <br />
+            <strong>Finalidade:</strong> controlo da glicemia, diabetes, hipercolesterolemia, diminuição da pressão arterial, combate da retenção de líquidos, <br /> fortalecimento do sistema imunitário, melhoramento das funções hepáticas, anti-inflamatório, auxiliar da gastrite e, no combate a vermes intestinais.
+            <strong>Usos: </strong> Aromatica e medicinal. <br />
+            <strong>Local de coleta:</strong>  UTFPR-SH <br />
+            <strong>Nome do coletor:</strong> Johny Lamera e Matheus Antonelli<br />
+            <strong>Data de coleta:</strong> 10/06/2023</p>
         </Segment>
       </TransitionablePortal>
         </Card>
         {/*  -  - ---------- */}
+    </Card.Group>
 
 
-        <Card>
-          <Image src='https://images.unsplash.com/photo-1623613466226-30970499b058?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=890&q=80' wrapped ui={false} />
+    <Card.Group itemsPerRow={3} className='card-container'>
+
+
+    <Card>
+          <Image src='https://images.unsplash.com/photo-1686851606048-7bcc68d673dd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Nome da Planta</Card.Header>
-            <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
+            <Card.Header>Capim-limão</Card.Header>
+            <Divider horizontal className='italic'>Cymbopogon citratus</Divider>
             <Card.Meta>Data da Coleta</Card.Meta>
             <Card.Description>
               Tipo de Planta e usos - POUCO TEXTO
@@ -513,11 +542,15 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
+          <Header className='card-header'>Nome da planta</Header>
           <Divider horizontal>Nome Cientifico</Divider>
           <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
+          <p><strong>Família:</strong> Poaceae <br />
+            <strong>Finalidade:</strong> controlo da glicemia, diabetes, hipercolesterolemia, diminuição da pressão arterial, combate da retenção de líquidos, <br /> fortalecimento do sistema imunitário, melhoramento das funções hepáticas, anti-inflamatório, auxiliar da gastrite e, no combate a vermes intestinais.
+            <strong>Usos: </strong> Aromatica e medicinal. <br />
+            <strong>Local de coleta:</strong>  UTFPR-SH <br />
+            <strong>Nome do coletor:</strong> Johny Lamera e Matheus Antonelli<br />
+            <strong>Data de coleta:</strong> 10/06/2023</p>
         </Segment>
       </TransitionablePortal>
         </Card>
@@ -550,7 +583,7 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
+          <Header className='card-header'>Nome da planta</Header>
           <Divider horizontal>Nome Cientifico</Divider>
           <Header className='italic'>Nome cientifico:</Header>
           <p>Plantas medicinais podem ajudar a sociedade.</p>
@@ -586,7 +619,7 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header>Nome da planta</Header>
+          <Header className='card-header'>Nome da planta</Header>
           <Divider horizontal>Nome Cientifico</Divider>
           <Header className='italic'>Nome cientifico:</Header>
           <p>Plantas medicinais podem ajudar a sociedade.</p>
