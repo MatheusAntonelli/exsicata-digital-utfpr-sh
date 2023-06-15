@@ -521,7 +521,7 @@ export default class PlantCard extends Component {
           <Card.Content>
             <Card.Header>Capim-limão</Card.Header>
             <Divider horizontal className='italic'>Cymbopogon citratus</Divider>
-            <Card.Meta>Data da Coleta</Card.Meta>
+            <Card.Meta>Data da Coleta: 13/06/2023</Card.Meta>
             <Card.Description>
               Tipo de Planta e usos - POUCO TEXTO
             </Card.Description>
@@ -550,7 +550,7 @@ export default class PlantCard extends Component {
             <strong>Usos: </strong> Aromatica e medicinal. <br />
             <strong>Local de coleta:</strong>  UTFPR-SH <br />
             <strong>Nome do coletor:</strong> Johny Lamera e Matheus Antonelli<br />
-            <strong>Data de coleta:</strong> 10/06/2023</p>
+            <strong>Data de coleta:</strong> 13/06/2023</p>
         </Segment>
       </TransitionablePortal>
         </Card>
@@ -558,13 +558,13 @@ export default class PlantCard extends Component {
             {/* -  - ---------- */}
 
         <Card>
-          <Image src='' wrapped ui={false} />
+          <Image src='https://images.unsplash.com/photo-1686851286889-24cf7c42f632?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Nome da Planta</Card.Header>
+            <Card.Header>Ginseng Brasileiro</Card.Header>
             <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
-            <Card.Meta>Data da Coleta</Card.Meta>
+            <Card.Meta>Data da Coleta: 13/06/2023</Card.Meta>
             <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
+            planta de pequeno porte, característica que permite o seu cultivo em vasos ou canteiros.
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
@@ -583,11 +583,15 @@ export default class PlantCard extends Component {
             }
           >
         <Segment style={{ left: '0%', position: 'fixed', top: '50%', zIndex: 1000 }} >
-          <Header className='card-header'>Nome da planta</Header>
+          <Header className='card-header'>Ginseng Brasileiro</Header>
           <Divider horizontal>Nome Cientifico</Divider>
-          <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
+          <Header className='italic'>Pfaffia glomerata</Header>
+          <p><strong>Família:</strong> Amaranthaceae <br />
+            <strong>Finalidade:</strong> Na medicina popular é prescrito em chás como um tônico estimulante, dando uma nova vitalidade ao organismo <br />
+            <strong>Usos: </strong>medicinal. <br />
+            <strong>Local de coleta:</strong>  UTFPR-SH <br />
+            <strong>Nome do coletor:</strong> Johny Lamera e Matheus Antonelli<br />
+            <strong>Data de coleta:</strong> 13/06/2023</p>
         </Segment>
       </TransitionablePortal>
         </Card>
