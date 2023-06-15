@@ -523,7 +523,7 @@ export default class PlantCard extends Component {
             <Divider horizontal className='italic'>Cymbopogon citratus</Divider>
             <Card.Meta>Data da Coleta: 13/06/2023</Card.Meta>
             <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
+              Planta medicinal usada como digestivo e calmante suave utilizando suas folhas.
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
@@ -561,7 +561,7 @@ export default class PlantCard extends Component {
           <Image src='https://images.unsplash.com/photo-1686851286889-24cf7c42f632?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
             <Card.Header>Ginseng Brasileiro</Card.Header>
-            <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
+            <Divider horizontal className='italic'>Pfaffia glomerata</Divider>
             <Card.Meta>Data da Coleta: 13/06/2023</Card.Meta>
             <Card.Description>
             planta de pequeno porte, característica que permite o seu cultivo em vasos ou canteiros.
@@ -598,13 +598,13 @@ export default class PlantCard extends Component {
             {/*  -  - ---------- */}
 
         <Card>
-          <Image src='https://drive.google.com/file/d/1h1S8CtE9OBgeeqiVLr0NhfYSdZ9F226o/view?usp=drive_link' wrapped ui={false} />
+          <Image src='https://images.unsplash.com/photo-1686851181503-29aec62714d7?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=435&q=80' wrapped ui={false} />
           <Card.Content>
-            <Card.Header>Nome da Planta</Card.Header>
-            <Divider horizontal className='italic'>Salvia rosmarinus</Divider>
-            <Card.Meta>Data da Coleta</Card.Meta>
+            <Card.Header>Figatil</Card.Header>
+            <Divider horizontal className='italic'>Vernonia condensata Baker</Divider>
+            <Card.Meta>Data da Coleta: 13/06/2023</Card.Meta>
             <Card.Description>
-              Tipo de Planta e usos - POUCO TEXTO
+              Planta Medicinal utilizada contra disturbios do fígado.
             </Card.Description>
           </Card.Content>
           <Card.Content extra>
@@ -626,8 +626,12 @@ export default class PlantCard extends Component {
           <Header className='card-header'>Nome da planta</Header>
           <Divider horizontal>Nome Cientifico</Divider>
           <Header className='italic'>Nome cientifico:</Header>
-          <p>Plantas medicinais podem ajudar a sociedade.</p>
-          <p>Usos</p>
+          <p><strong>Família:</strong> Asteraceae <br />
+            <strong>Finalidade:</strong> Contra distúrbios do fígado e do estômago, problemas intestinais e no combate a insuficiência dos rins e a inflamações. <br />
+            <strong>Usos: </strong>medicinal. <br />
+            <strong>Local de coleta:</strong>  UTFPR-SH <br />
+            <strong>Nome do coletor:</strong> Johny Lamera e Matheus Antonelli<br />
+            <strong>Data de coleta:</strong> 13/06/2023</p>
         </Segment>
       </TransitionablePortal>
         </Card>
