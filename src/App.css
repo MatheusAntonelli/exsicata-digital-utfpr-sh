@@ -2,6 +2,9 @@
     font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
 }
 
+p{
+  text-align: center;
+}
 /* CSS */
 .button-9 {
   appearance: button;
@@ -89,6 +92,10 @@
   
 }
 
+.italic {
+  text-align: center;
+  font-style: italic;
+}
 /* FOOTER */
 .footer-container {
   
