@@ -16,7 +16,7 @@ export default class PlantCard extends Component {
     const { open } = this.state
     return (
       <section id='featured' className='featured'>
-        <h2>Plantas coletadas</h2>
+        <h2>Plantas Coletadas</h2>
         <Card.Group itemsPerRow={4} className='card-container'>
           {/* Alecrim -  - ---------- */}
         <Card>
