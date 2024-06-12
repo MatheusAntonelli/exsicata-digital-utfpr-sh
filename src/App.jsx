@@ -1,7 +1,7 @@
 import { useState } from 'react'
 
 import MainSection from './components/MainSection/MainSection'
-import './App.css'
+import './3d.css'
 import Footer from './components/Footer/Footer'
 import Hero from './components/Hero/Hero'
 function App() {
@@ -9,9 +9,9 @@ function App() {
 
   return (
     <>
-       <MainSection/>
+       
        <Hero/>
-       <Footer/>
+     
     </>
   )
 }
